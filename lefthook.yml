@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    ruff-fix:
+      run: ruff check --force-exclude --fix
+    ty-check:
+      run: uvx ty check
