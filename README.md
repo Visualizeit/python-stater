@@ -22,7 +22,7 @@ uv sync
 uv run lefthook install
 
 # Run the application
-uv run app
+fastapi dev
 ```
 
 ## License

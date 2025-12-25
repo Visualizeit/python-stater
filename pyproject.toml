@@ -12,15 +12,15 @@ dependencies = [
     "fastapi[standard]>=0.127.0",
 ]
 
-[project.scripts]
-app = "app.main:main"
-
 [dependency-groups]
 dev = [
     "lefthook>=2.0.2",
     "ruff>=0.14.3",
     "ty>=0.0.1a25",
 ]
+
+[tool.fastapi]
+entrypoint = "app.main:app"
 
 [tool.ruff.lint]
 select = ["I"]
