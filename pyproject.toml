@@ -9,14 +9,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "fastapi[standard]>=0.127.0",
+    "fastapi[standard]>=0.128.0",
+    "scalar-fastapi>=1.4.3",
 ]
 
 [dependency-groups]
 dev = [
-    "lefthook>=2.0.2",
-    "ruff>=0.14.3",
-    "ty>=0.0.1a25",
+    "lefthook>=2.0.15",
+    "ruff>=0.14.11",
+    "ty>=0.0.13",
 ]
 
 [tool.fastapi]
